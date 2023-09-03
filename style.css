@@ -1,0 +1,35 @@
+body{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    color: white;
+}
+input{
+    margin-left: 160px;
+    text-align: center;
+}
+.age{
+    background-color: red;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px 16px rgb(248, 35, 35);
+    height: 320px;
+}
+button{
+    margin-left: 90px ;
+    margin-top: 50px;
+    height: 55px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px white;
+    transition: 0.5s;
+}
+button:hover{
+    box-shadow: 0px 0px 20px 11px white;
+    height: 45px;
+}
+h2{
+    text-align: center;
+}
