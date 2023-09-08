@@ -6,5 +6,14 @@ console.log(year)
 function clik(){
     age = crrt - inpt.value;
     console.log(inpt.value);
-    year.innerText = "Tanii Tursun On Bol: " + age;
+    if (inpt.value > 149) {
+        alert("iim nas baihgui")
+    } else {
+        year.innerText = "Tanii Tursun On Bol: " + age;
+    } 
+    if (inpt.value < 1) {
+        alert("Ta turuugui baina")
+    } else {
+        year.innerText = "Tanii Tursun On Bol: " + age;
+    } 
 }
